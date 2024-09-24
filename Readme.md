@@ -14,7 +14,7 @@ Blog made with python's Django framework.
 - Activate the environment 
    
     ```bash
-        myenv\Scripts\activate
+        nnv\Scripts\activate
     ```
     Note: For deactivating use "deactivate" in terminal
 
