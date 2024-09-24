@@ -10,8 +10,9 @@ def home(req):
     or
     return render(req, 'home.html')
 '''
+from django.shortcuts import render
 
-
-
+def home(req):
+    return render(req, 'home.html')
     
     
