@@ -29,3 +29,7 @@ Blog made with python's Django framework.
     python manage.py runserver
     ```
     
+## Create Articles Module
+    ```bash
+    python manage.py startapp articles
+    ```
