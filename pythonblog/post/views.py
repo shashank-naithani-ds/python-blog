@@ -5,7 +5,7 @@ def home(req):
     # TGet Data
     postData= Article.objects.all()
     # Save Data to allpost in dictornary
-    return render(req, 'home.html', {'allpost' : postData})
+    return render(req, 'postlist.html', {'allpost' : postData})
 
 def detailpage(req,blogid):
     # TGet Data
