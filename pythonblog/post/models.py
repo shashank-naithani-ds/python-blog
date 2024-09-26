@@ -18,7 +18,7 @@ class Article(models.Model):
     # status = models.CharField(max_length=8,choices = B_STATUS,default = 'DRAFT' )
     status = models.CharField(max_length=50, choices=Status.choices, default = Status.DRAFT)
     date = models.DateTimeField(auto_now_add=True)
-    
+    banner = models.ImageField(default='default.jpg', blank = True)
 
     def __str__(self):
         return f"{self.title}"
