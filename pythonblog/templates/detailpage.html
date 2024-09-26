@@ -1,0 +1,14 @@
+{% extends "base.html" %}    
+
+{% block content %}
+   <h2>Detail Page</h2>
+   
+   {% for a in postdata %}
+         {{a.date}}
+        {{a.title}}
+       
+        {{a.content}}
+   {% endfor %}
+   
+
+{% endblock %}
